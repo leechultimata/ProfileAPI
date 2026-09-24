@@ -1,0 +1,14 @@
+{
+  "name": "profileapi",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsc ./src/backend/server.ts && node src/backend/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsc": "^2.0.4"
+  }
+}
